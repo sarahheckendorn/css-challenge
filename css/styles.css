@@ -128,7 +128,7 @@ width: 25%;
 }
 
 .para {
-
+display: inherit;
 }
 
 .prof {
