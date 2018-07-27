@@ -62,10 +62,28 @@ body { width: 100%;}
 * * Attribute Selectors
 ******************************************************/
 
-div.container-header{
-	background-color: black;
-	background-position: 100%;
+//*div.container-header{
+	display: inline-flex;
 	color: lawngreen;
+}*//
+
+.header {
+	display: flex;
+	width: 100%;
+	background: black;
+	color: lawngreen;
+	font-size: .9em;
+}
+.container-header {
+	display: inline-flex;
+	justify-self: flex-start;
+	background: black;
+	color: lawngreen;
+}
+em {
+	display: inline-flex;
+	justify-self: center;
+	margin: 1.75em 0;
 }
 
 #welcome{
@@ -88,14 +106,90 @@ div.instructions-wrapper{
 width: 25%;
 }
 
-div.about-me{
-	justify-content: space-around;
-	margin: 3% 10%;
+.about-me{
 	padding: 1%;
-	display: flex;
+	background: blue;
+	display: inline-block;
+	color: white;
 }
 
 #picard{
 	width: 18em;
-	border: solid;
+	display: inline-block;
+	float: left;
+	padding-left: 3em;
+}
+
+.title{
+	display: inline-block;
+	float: left;
+	padding-left: .5em;
+
+}
+
+.para {
+
+}
+
+.prof {
+	text-align: right;
+	margin-right: 4.5em;
+}
+
+table, th, td {
+	border: 1px solid white;
+	background: black;
+	color: lawngreen;
+	border-collapse: collapse;
+}
+
+table {
+	width: 80%;
+	margin-left: 7em;
+}
+
+
+th, td {
+	padding: .5em;
+	text-align: left;
+}
+
+.contact {
+	background-color: #373d3e;
+	height: 75vh;
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	padding: 1em 0 3em 0;
+}
+.form-wrapper {
+	background-color: forestgreen;
+	height: 100%;
+	color: lime;
+	width: 90%;
+	margin: 0 5% 10% 5%;
+}
+
+label, input , textarea {
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	margin: .5em;
+}
+
+input {
+	width: 21.5%;
+}
+button {
+	margin: .5%;
+	width: 6%;
+	background-color: lime;
+	border-style: none;
+}
+
+footer {
+	background-color: black;
+	color: ghostwhite;
+	height: 10vh;
+	text-align: center;
 }
