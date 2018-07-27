@@ -67,18 +67,13 @@ body { width: 100%;}
 	color: lawngreen;
 }*/
 
-.header {
-	display: flex;
-	width: 100%;
-	background: black;
-	color: lawngreen;
-	font-size: .9em;
-}
+
 .container-header {
 	display: inline-flex;
 	justify-self: flex-start;
 	background: black;
 	color: lawngreen;
+	width: 100%;
 }
 em {
 	display: inline-flex;
