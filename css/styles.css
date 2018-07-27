@@ -124,11 +124,13 @@ width: 25%;
 	display: inline-block;
 	float: left;
 	padding-left: .5em;
+	font-family: Serif;
 
 }
 
 .para {
 display: inherit;
+	font-family: Serif;
 }
 
 .prof {
